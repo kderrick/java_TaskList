@@ -14,8 +14,8 @@ public class AppTest extends FluentTest {
     return webDriver;
   }
 
-  @Rule
-  public DatabaseRule database = new DatabaseRule();
+  // @Rule
+  // public DatabaseRule database = new DatabaseRule();
 
   @ClassRule
   public static ServerRule server = new ServerRule();
